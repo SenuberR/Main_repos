@@ -24,12 +24,12 @@ h2{
 .line{
     display: inline-block;
     width: 338px;
-    border: 1px solid red;
+    border: 1px solid #D7DEDD;
 }
 
 
 .input_groups{
-    border: 2px solid red;
+    border: 2px solid #D7DEDD;
     border-radius: 6px;
     padding: 12px 8px; 
     width: 320px;
@@ -51,7 +51,7 @@ h2{
     float: left;
     display: inline-block;
     margin-right: 4px;
-    border: 2px solid red;
+    border: 2px solid #D7DEDD;
     border-radius: 6px;
     height: 20px;
     padding: 12px 8px;
@@ -59,14 +59,14 @@ h2{
 
 .input_field2{
     width: 256px;
-    border: 2px solid red;
+    border: 2px solid #D7DEDD;
     border-radius: 6px;
     height: 20px;
     padding: 12px 8px;
 }
 
 .dropdown{
-    border: 2px solid red;
+    border: 2px solid #D7DEDD;
     border-radius: 6px;
     width: 340px;
     height: 48px;
@@ -74,7 +74,7 @@ h2{
 }
 
 .message{
-    border: 2px solid red;
+    border: 2px solid #D7DEDD;
     border-radius: 6px;
     padding: 12px 8px;
 }
@@ -95,7 +95,7 @@ h2{
     padding: 8px 16px;
     color: white;
     border-radius: 6px;
-    background-color: #DA4B26;
+    background-color: #5732EE;
     cursor: pointer;
     border: none;
     margin: 24px;
