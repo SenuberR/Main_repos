@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul{
@@ -13,42 +13,41 @@ ul{
 }
 
 .card{
-    margin: 40px;
+    margin: 50px;
     padding: 20px;
-    width: 250px;
-    height: 350px;
+    width: 240px;
+    height: 310px;
     display: inline-block;
-    border: 2px solid red;
     text-align: center;
 }
 
-.cube{
+.card_head_top_icon{
     display: inline-block;
-    color: red;
+    font-size: 20px;
 }
 
-.basic{
+.card_head_top_info{
     font-weight: 300;
-    margin: 12px 0;
+    margin: 8px 0;
     font-size: 12px;
 }
 
-.free{
-    font-size: 28px;
+.card_head_top_price{
+    font-size: 24px;
     font-weight: 600;
+    margin-bottom: 16px;
 }
 
-.list{
-    margin: 8px;
-    font-size: 12px;
+.card_list{
+    margin: 6px;
+    font-size: 8px;
     font-weight: 300;
 }
 
-.btn{
+.card_button{
     border-radius: 28px;
-    background-color: red;
     border: none;
-    padding: 8px 28px;
+    padding: 8px 32px;
     color: white;
     margin-top: 20px;
 
@@ -61,4 +60,27 @@ ul{
 
 li{
     margin: 8px 0;
+}
+
+.card_shadow{
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+.color_red{
+    background-color: #ed3e77;
+}
+.color_green{
+    background-color: #54bb89;
+}
+.color_blue{
+    background-color: #5f77f7;
+}
+.icon_color_red{
+    color: #ed3e77;
+}
+.icon_color_green{
+    color: #54bb89;
+}
+.icon_color_blue{
+    color: #5f77f7;
 }
