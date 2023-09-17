@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.card{
+    margin: 40px;
+    padding: 20px;
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.cube{
+    display: inline-block;
+    color: red;
+}
+
+.basic{
+    font-weight: 300;
+    margin: 12px 0;
+    font-size: 12px;
+}
+
+.free{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.list{
+    margin: 8px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.btn{
+    border-radius: 28px;
+    background-color: red;
+    border: none;
+    padding: 8px 28px;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.card_top{
+    margin-bottom: 20px;
+}
+
+
+li{
+    margin: 8px 0;
+}

@@ -1,0 +1,67 @@
+
+
+
+.mom{
+    border: 1px solid blue;
+    border-radius: 4px;
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+.top_left{
+    border: 2px solid green;
+    border-radius: 2px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+
+.top_right{
+    border: 2px solid green;
+    border-radius: 2px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+
+.bottom_left{
+    border: 2px solid green;
+    border-radius: 2px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+.bottom_right{
+    border: 2px solid green;
+    border-radius: 2px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.circle{
+    border: 2px solid green;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    transform:translate(-50% , -50%)
+
+}
