@@ -12,6 +12,11 @@ ul{
     list-style: none;
 }
 
+.section_head{
+    text-align: center;
+    margin-top: 40px;
+}
+
 .card{
     margin: 50px;
     padding: 20px;
