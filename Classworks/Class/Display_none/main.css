@@ -1,0 +1,10 @@
+
+
+
+.triggerred_element{
+    display: none;
+}
+
+.hovered_element:hover + .triggerred_element{
+    display: block;
+}
