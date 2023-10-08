@@ -19,7 +19,7 @@
     background-color: rgb(192, 190, 190);
 }
 
-.item_0{
+.item_1{
     grid-column: 1 / span 5;
     border: 1px solid black;
     background-color: blue;
@@ -27,8 +27,8 @@
     width: 100%;
     height: 80px;
     border-radius: 8px;
-   padding: 16px;
-   text-align: end;
+    padding: 30px 16px;
+    text-align: end;
 }
 .item_2{
     background-color: black;
@@ -36,27 +36,23 @@
     grid-row: 6 / 8;
     grid-column: 5;
     border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
+    padding: 60px 10px;
+    text-align: center;
 }
 .item_3{
     background-color: black;
     color: white; 
     grid-column: 1 / 3;
     border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px 20px;
+    text-align: center;
 }
 .colculator_box_item{
     background-color: black;
     color: white;
     width: 60px;
     height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px;
+    text-align: center;
     border-radius: 8px;
 }
