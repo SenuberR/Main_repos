@@ -1,6 +1,8 @@
 
 
 
+//1)"Get country switch capital" started
+
 
 
 // let country = prompt("case");
@@ -31,36 +33,48 @@
 
 
 
+//"Get country switch capital" finished
 
 
 
-let getSecond = prompt ("enter a second");
 
-    let minutes = getSeconds / 60;
-    let scnd = getSeconds % 60;
-    alert  (minutes + "minute" + " " + scnd + "second") ;
 
-    console.log(getSeconds)
+//2)"Seconds to minutes" start
+
+
+
+// let getSecond = prompt("enter a seconds");
+
+// let minute = getSecond / 60;
+// let second = getSecond % 60;
     
+// alert(minute + "minute" + second + "seconds")
+
+
+
+//"Seconds to minutes" finished
 
 
 
 
 
 
+//3)"Get a factorial" started
 
 
 
-// function factorial(n) {
-    
-//     let num=n-1
-  
-//     return n *  factorial(num);
- 
-//  }
-  
- 
-// console.log(factorial(4));
+let n = prompt("Enter a number");
 
+let factorial=1;
+
+for(let i=1; i<=n; i++){
+
+    factorial = factorial * (n-1);
+}
+alert(factorial);
+
+
+
+//"Get a factorial" finished
 
          
