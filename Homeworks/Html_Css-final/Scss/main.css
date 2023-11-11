@@ -494,7 +494,7 @@ body {
 
 @media screen and (max-width: 576px) {
   html, body {
-    font-size: 14px;
+    font-size: 12px;
   }
   .container {
     margin: 0 1rem;
@@ -514,5 +514,42 @@ body {
   }
   .category_btn {
     display: block !important;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .cards_item {
+    width: 156px;
+  }
+  .cards_item_icon {
+    visibility: hidden;
+  }
+  .cards_item_content_box {
+    width: 156px;
+  }
+  .cards_item_content_box_title {
+    text-overflow: ellipsis;
+    font-size: 12px;
+  }
+  .cards_item_content_box_desc {
+    display: none;
+  }
+  .cards_item_content_box_time {
+    display: none;
+  }
+  .cards_item_content_box_price {
+    font-size: 0.7rem;
+  }
+  .cards_item_content_box_total-price {
+    font-size: 0.7rem;
+  }
+  .cards .progress_grey {
+    background-color: #F0F1F3;
+    border-radius: 2px;
+  }
+  .cards .progress_orange {
+    background-color: #FBAB73;
+    border-radius: 2px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -400,9 +400,9 @@ body{
     display: none;
 }
 }
+
 .cards{
     @include d-flex(flex, space-between, center, wrap , row , 1.5rem);
-
 
     &_item{
         width: 392px;
@@ -492,7 +492,7 @@ body{
 
 @media screen and (max-width: 576px) {
     html, body{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .container{
@@ -513,5 +513,51 @@ body{
         }
     .category_btn{
         display: block !important;
+        // margin-left: 20px !important;
      }
+     .cards{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       &_item{
+        width: 156px;
+        &_icon{
+           visibility: hidden;       
+           }
+        &_content_box{
+        width: 156px;
+            &_title{
+                text-overflow: ellipsis;
+                font-size: 12px;
+            }
+            &_desc{
+                display: none;
+            }
+            &_time{
+                display: none;
+            }
+            &_price{
+                font-size: 0.7rem;
+            }
+            &_total-price{
+                font-size: 0.7rem;
+            }
+        }
+       }
+       .progress_grey{
+        background-color: #F0F1F3;
+        border-radius: 2px;
+
     }
+    .progress_orange{
+        background-color: #FBAB73;
+        border-radius: 2px;
+    }
+     }
+// .cards_responsive{
+//  display: block;
+// }
+}
+//Announcements responsive finish
+
+
+//Announce desktop start
