@@ -561,3 +561,323 @@ body{
 
 
 //Announce desktop start
+
+.title_box{
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    &_item1{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+    &_item2{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+.page_top{
+    display: flex;
+    justify-content: space-between;
+.left_side{
+    &_img_box{
+        max-width: 704px;
+        max-height: 436px;
+        margin-bottom: 1.2rem;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &_content_box{
+        width: 704px;
+        &_descp{
+            font-size: 1.1rem;
+        }
+        &_more{
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: underline;
+            display: block;
+            margin-top: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+       
+        &_bottom{
+            @include d-flex(flex, space-between, center, wrap , row , _);
+            &_category{
+                font-size: 0.8rem;
+            }
+            &_date{
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+.right_side{
+    width: 500px;
+display: grid;
+// justify-content: space-between;
+    &_price{
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    &_total_price{
+        font-size: 1.6rem;
+    }
+    .progress_grey{
+        background-color: #F0F1F3;
+        border-radius: 2px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+
+    }
+    .progress_orange{
+        background-color: #FBAB73;
+        border-radius: 2px;
+    }
+    &_descp_box{
+        @include d-flex(flex, space-between, center, wrap , row , _);
+        &_date{
+            font-size: 0.8rem;
+        }
+        &_people{
+            font-size: 0.8rem;
+        }
+    }
+
+    &_center{
+             @include d-flex(flex, space-between, center, wrap , row , _);
+        margin-top: 2rem;
+        &_img_box{
+            @include d-flex(flex, flex-start, center, wrap , row , _);
+
+          position: relative;
+        }
+        .item2{
+            position: absolute;
+            left: 20px;
+        }
+        .item3{
+            position: absolute;
+            left: 40px;
+            z-index: 1;
+        }
+        .item4{
+            position: absolute;
+            left: 60px;
+            z-index: 1;
+        }
+        .item5{
+            position: absolute;
+            left: 80px;
+            z-index: 1;
+        }
+        .item6{
+            position: absolute;
+            left: 100px;
+            z-index: 1;
+        }
+        
+        &_img_item{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid white;
+            img{
+                border-radius: 50%;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &_btn{
+            padding: 8px 16px;
+            border: 1px solid #2A5055;
+            background-color: transparent;
+            color: #2A5055;
+            font-size: 1rem;
+            border-radius: 0.5rem;
+        }
+    }
+   
+    &_btn{
+        font-size: 1rem;
+        border: none;
+        border-radius: 0.5rem;
+        width: 100%;
+        padding: 12px 20px;
+        background-color: #2A5055;
+        color: white;
+    }
+    &_btn_descp{
+        margin-bottom: 2px;
+        font-size: 0.8rem;
+        display: block;
+    }
+
+}
+}
+.page_bottom{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    &_top-side{
+        @include d-flex(flex, space-between, center, wrap , row , _);
+        margin-bottom: 1.5rem;
+        &-title{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        &-btn{
+            padding: 12px 20px;
+            border: 1px solid #2A5055;
+            background-color: transparent;
+            color: #2A5055;
+            font-size: 1rem;
+            border-radius: 0.5rem;
+        }
+    }
+    &_announce{
+        @include d-flex(flex, space-between, center, wrap , row , _);
+
+        &_item{
+        &_img{
+            width: 288px;
+            height: 268px;
+            border-radius: 0.5rem;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 0.5rem;
+                object-fit: cover;
+            }
+        }
+        &_content{
+            width: 288px;
+            &_title{
+                font-size: 1rem;
+                font-weight: 700;
+                margin-bottom: 0.3rem;
+            }
+            .progress_grey{
+                background-color: #F0F1F3;
+                border-radius: 2px;
+                margin-bottom: 0.3rem;
+            }
+            .progress_orange{
+                background-color: #FBAB73;
+                border-radius: 2px;
+            }
+            &_price{
+                font-size: 1rem;
+                font-weight: 600;
+
+            }
+            &_total_price{
+                font-size: 1rem;
+            }
+        }
+        
+    }
+
+    }
+}
+//Announce desktop finish
+
+//Announce responsive start
+
+
+@media screen and (max-width: 576px) {
+    html, body{
+        font-size: 14px;
+    }
+
+    .container{
+        margin: 0 1rem;
+        padding: 0 .2rem;
+        }
+    .title_box_item1{
+font-size: 14px;
+        }
+    .title_box_item2{
+            font-size: 14px;
+        }
+.page_top{
+display: flex;
+flex-direction: column;
+.left_side{
+    width: 324px;
+    &_content_box{
+        width: 324px;
+        &_descp{
+            font-size: 10px;
+        }
+        &_more{
+            font-size: 10px;
+        }
+        &_bottom{
+            margin-bottom: 1.5rem;
+            &_category{
+                font-size: 10px;
+            }
+            &_date{
+                font-size: 10px;
+            }
+        }
+       
+    }
+}
+
+.right_side{
+    width: 324px;
+   &_price{
+    font-size: 12px;
+   }
+   &_total_price{
+    font-size: 12px;
+   }
+   &_center_img_item{
+    width: 40px;
+    height: 40px;
+   }
+   &_center_other{
+    font-size: 12px;
+   }
+   &_center_btn{
+    padding: 6px 12px;
+    font-size: 14px;
+   }
+
+}
+}
+.page_bottom{
+    &_top-side-title{
+        font-size: 14px;
+    }
+    &_top-side-btn{
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+    &_announce_item{
+            &_img{
+                width: 156px;
+                height: 140px;
+            }
+            &_content{
+                width: 156px;
+                &_title{
+                    font-size: 12px;
+                }
+                &_price{
+                    font-size: 10px;
+                }
+                &_total_price{
+                    font-size: 10px;
+                }
+            }
+            
+        
+    }
+}
+}
