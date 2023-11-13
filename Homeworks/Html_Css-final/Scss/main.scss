@@ -881,3 +881,154 @@ flex-direction: column;
     }
 }
 }
+
+//Announce responsive finish
+
+//Home page desktop start
+
+
+.hero{
+    position: relative;
+    &_img{
+        width: 100%;
+        height: 480px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &_content{
+        position: absolute;
+        left: 30%;
+        top: 120px;
+        text-align: center;
+        &_title{
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 4rem;
+            color: white;
+        }
+        &_btn{
+            padding: 12px 44px;
+            border: none;
+            border-radius: 0.5rem;
+            background-color: #FA8F45;
+            color: white;
+            
+        }
+    }
+}
+.category{
+    margin-top: 96px;
+    margin-bottom: 96px;
+    &_title{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem
+    }
+    &_cards{
+        @include d-flex(flex, space-between, center, wrap , row , _);
+        &_item{
+            width: 288px;
+            position: relative;
+            &_img{
+                // background-image: linear-gradient(to bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
+                width: 288px;
+                height: 268px;
+                border-radius: 0.5rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 0.5rem;
+                    object-fit: cover;
+
+                }
+            }
+            &_content{
+                width: 100%;
+           @include d-flex(flex, space-between, center, wrap , row , _);
+           padding: 0 0.8rem;
+              position: absolute;
+              bottom: 16px;
+              &_title{
+                font-size: 1rem;
+                color: white;
+              }
+              &_icon{
+                color: white;
+              }
+            }
+        }
+    }
+}
+
+.volunteer{
+    &_title{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem
+    }
+    &_cards{
+        @include d-flex(flex, space-between, center, wrap , row , 1.5rem);
+        &_item{
+            @include d-flex(flex, center, center, wrap , row , _);
+            width: 392px;
+            height: 428px;
+            padding: 1.5rem 1rem;
+            border: 1px solid #C2C6CE;
+            border-radius: 0.5rem;
+            &_img{
+                width: 120px;
+                height: 120px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            &_content{
+                width: 340px;
+                text-align: center;
+                &_title{
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    margin-bottom: 12px;
+                    margin-top: 1.5rem;
+                }
+                &_descp{
+                    font-size: 0.8rem;
+                    font-weight: 300;
+                }
+            }
+            &_final{
+        @include d-flex(flex, center, center, wrap , column , _);
+                width: 392px;
+                height: 428px;
+                padding: 1.5rem 52px;
+                border: 1px solid #667085;
+                border-radius: 0.5rem;
+                &_content{
+                    text-align: center;
+                    &_title{
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                    }
+                    &_descp{
+                        font-size: 1.1rem;
+                        font-weight: 400;
+                        display: block;
+                    }
+                }
+                &_btn{
+                    margin-top: 60px;
+                    padding: 12px 20px;
+                    border: none;
+                    border-radius: 0.5rem;
+                    background-color: #C9EAEF;
+                }
+            }
+        }
+    }
+}
+
