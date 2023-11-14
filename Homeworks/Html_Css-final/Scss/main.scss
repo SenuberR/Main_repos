@@ -1,6 +1,5 @@
 @import './mixins';
-
-
+@import url('./_functions.scss');
 
 *{
     margin: 0;
@@ -1198,3 +1197,244 @@ flex-direction: column;
         }
     }
 }
+
+//Home page desktop finish
+
+//Home page responsive start
+
+@media screen and (max-width: 576px) {
+    html, body{
+        font-size: 14px;
+    }
+
+    .container{
+        margin: 0 1rem;
+        padding: 0 .2rem;
+        }
+        .hero{
+            &_img{
+                width: 100%;
+                height: 200px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            &_content{
+                top: 60px;
+                &_title{
+                    font-size: 1rem;
+                    font-weight: 500;
+                    margin-bottom: 1rem;
+                }
+                &_btn{
+                    padding: 8px 20px; 
+                }
+            }
+        }
+
+        .category{
+            margin-top: 40px;
+            margin-bottom: 40px;
+            &_title{
+                font-size: 1.2rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+            &_cards{
+                @include d-flex(flex, center, center, wrap , column , 1rem);
+                &_item{
+                    width: 324px;
+                    height: 78px;
+                    &_img{
+                        width: 100%;
+                        height: 78px;
+                        border-radius: 0.5rem;
+                        img{
+                            border-radius: 0.5rem;
+                        }
+                    }
+                    &_content{
+                      bottom: 2rem;
+                    }
+                }
+            }
+        }
+
+        .volunteer{
+            &_title{
+                font-size: 1.2rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+            &_cards{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: space-between;
+                &_item{
+                    width: 156px;
+                    height: 132px;
+                    &_img{
+                        width: 52px;
+                        height: 52px;
+                    }
+                    &_content{
+                        &_title{
+                            font-size: 0.8rem;
+                            font-weight: 600;
+                            margin-top: 0.8rem;
+                        }
+                        &_descp{
+                           display: none;
+                        }
+                    }
+                    &_final{
+                @include d-flex(flex, center, center, wrap , column , _);
+                        width: 156px;
+                        height: 132px;
+                        padding: 1.5rem 20px;
+                        &_content{
+                            text-align: center;
+                            &_title{
+                                font-size: 12px;
+                                font-weight: 500;
+                            }
+                            &_descp{
+                               display: none !important;
+                            }
+                        }
+                        &_btn{
+                            margin-top: 0.8rem;
+                            padding: 8px 12px;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .statistic{
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding:0.5rem 1rem;
+            @include d-flex(flex, center, center, wrap , column , _);
+            &_title{
+                font-size: 1.2rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+            &_content{
+                width: 324px;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+                &_item{
+            @include d-flex(flex, center, center, wrap , row , 1.5rem);
+        
+                    &_line{
+                      display: none;
+                    }
+                    &_box{
+                        width: 156px;
+                        text-align: center;
+                    &_title{
+                        font-size: 1.2rem;
+                        font-weight: 600;
+                    }
+                    &_descp{
+                        font-size: 0.8rem;
+                        font-weight: 400;
+                    }
+                }
+                }
+            }
+        }
+
+        .we_do{
+            &_content{
+                @include d-flex(flex, center, center, wrap , column , 1rem);
+                &_title{
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    text-align: center;
+                }
+                &_descp{
+                    font-size: 0.8rem;
+                    text-align: center;
+                }
+            }
+            &_img{
+                display: none;
+            }
+        }
+
+        .top10{
+            margin-top: 40px;
+            margin-bottom: 40px;
+            width: 100%;
+            padding:0.5rem 1rem;
+            &_title{
+                font-size: 1.2rem;
+                text-align: center;
+            }
+            &_content{
+               display: grid;
+               grid-template-columns: 1fr 1fr;
+                &_item{
+                    &_img{
+                        width: 64px;
+                        height: 64px;
+                    }
+                    &_name{
+                        font-size: 0.8rem;
+                    }
+                    &_job{
+                        font-size: 0.6rem;
+                        font-weight: 200;
+                    }
+                }
+            }
+        }
+        
+        .success{
+            &_content{
+            @include d-flex(flex, center, center, wrap , row , 1rem);
+        
+                &_title{
+                    font-size: 1.2rem;
+                }
+                &_descp{
+                    font-size: 0.8rem;
+                    text-align: center;
+                }
+            }
+            &_img{
+             display: none;
+            }
+        }
+
+        .partner{
+            @include d-flex(flex, center, center, wrap , column , _);
+            margin-top: 40px;
+            margin-bottom: 40px;
+            &_title{
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+            &_content{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 4rem;
+                &_item{
+                    width: 80px;
+                    height: 52px;
+                }
+            }
+        }
+}
+
+//Home page responsive finish
