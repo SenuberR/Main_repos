@@ -1,23 +1,24 @@
 "use strict"
 
 
-// let x=["salam"];
-// let size=x.length-1;
-// function getReverse(word){
+
+//function-1
+
+// function getReverse(x){
 //     let result=""
 
-//     for(let i=0; i<x.length-1; i--){
-//         result= result+word[i];
+//     for(let  i=x.length-1; i>=0; i--){
+//         result= result+x[i];
 //     }
-
+// return result;
 // }
 
-
-// getReverse(x)
-// console.log(getReverse(x))
-
+// // getReverse(x)
+// console.log(getReverse("salam"))
 
 
+
+//function-2
 
 // let x = "never give up";
 // let a=[];
@@ -35,8 +36,11 @@
 //     }
 //     return repeat
 // }
-
 // console.log(getLetter(x))
+
+
+
+//function-3
 
 const cars = [
     {
@@ -80,15 +84,18 @@ const cars = [
 
 // console.log(newArray)
 
-// const array=[  color: "red",type: "mercedes",capacity: 5,price:100]
-
-// const carPrice = cars.filter((car)=>car.color="blue").map((car)=>){
-//     let discount = car.price - (car.price*30)/100;
-// }
-
-// console.log(carPrice)
 
 
-//Tam bitməyib, yeniden yazilacaq!!!
+//function-4
+
+
+
+const discountCarPrice = cars.filter((car)=>car.color=="blue").map((car)=>{
+    const discount = car.price - (car.price*30)/100;
+    return discount;
+})
+
+console.log(discountCarPrice)
+
 
 

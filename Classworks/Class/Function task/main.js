@@ -20,14 +20,18 @@
 
 
 
-let a=[1,3,5,7,9];
 
-function array(a){
-  
 
-    return a[0] && a[a.length-1];
+const getFirstAndLastItem=(arr)=>{
+    let newArray=[];
+    let firstItem=arr[0];
+    let lastItem=arr[arr.length-1];
+    newArray.push(firstItem);
+    newArray.push(lastItem);
+
+    return newArray;
 
 }
 
-array(a)
-console.log(array)
+let array=[1,3,5,7,9];
+console.log(getFirstAndLastItem(array))
