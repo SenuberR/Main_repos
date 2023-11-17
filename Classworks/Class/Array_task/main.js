@@ -1,5 +1,33 @@
 "use strict"
 
+//-----reduce method-----
+
+// const numbers=[3,11,4];
+
+// function getSum(arr){
+//     let result=0;
+//     for(let i=0; i<arr.length;  i++){
+//         result+=arr[i];
+//         //result=result+arr[i]
+//     }
+//     return result
+// }
+// console.log("val",getSum(numbers))
+
+// let arr1=numbers.reduce((acc,curr)=>acc+curr)
+// console.log(arr1)
+
+
+
+
+
+
+
+
+
+
+
+
 const persons = [
     {
         name: 'Luke Skywalker',
@@ -34,10 +62,10 @@ const persons = [
     // const arr = persons.filter((item)=>Number(item.mass)>=100);
     // const arr = persons.filter((item)=>item.gender==="male");
     // const arr = persons.every((item)=>item.gender==="male");
-    const arr = persons.filter((item)=>item.eye_color=="blue");
-    let arr2= arr.map((i)=>`height ${i.height}, name ${i.name}`)
+//     const arr = persons.filter((item)=>item.eye_color=="blue");
+//     let arr2= arr.map((i)=>`height ${i.height}, name ${i.name}`)
 
-console.log(arr2)
+// console.log(arr2)
 
 
   
