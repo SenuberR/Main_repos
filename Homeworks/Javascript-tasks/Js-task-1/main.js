@@ -51,7 +51,6 @@ const persons = [
 //4???
 let arr=persons.map((item)=>item.name)
 console.log(arr)
-
 // console.log(arr.split(" "))
 
 
