@@ -12,14 +12,20 @@
 // }
 
 
-function loop ( a ){
+// function loop ( a ){
 
-    for( let i=1; i<=a; i++){
+//     for( let i=1; i<=a; i++){
 
-        if(i%2==1){
-            console.log(i)
-        }
-    } 
-}
+//         if(i%2==1){
+//             console.log(i)
+//         }
+//     } 
+// }
 
-console.log(loop(10))
+// console.log(loop(10))
+
+let click=document.querySelector(".btn")
+
+click.addEventListener('click', function(){
+    console.log(prompt ("hello"))
+})
