@@ -78,3 +78,56 @@
 
 //1
 
+// let person={
+//     name:"Ayla",
+//     city:"Baku",
+//     age:25,
+// }
+
+// function displayPersonInfo(obj){
+//     return `${obj.name}--${obj.age}`
+// }
+// console.log(displayPersonInfo(person))
+
+
+//2---???
+
+// const person={
+//     name:"Jane",
+//     surname:"Carlos",
+//     city:"New-York",
+//     age:32,
+// }
+
+//3---???
+
+
+
+//Task 4: Advanced Array Methods
+
+//1
+
+// let arr=[1,2,5,12,25,6,45,56]
+
+// function getPower(array){
+//     return array.map((item)=>item**2)
+// }
+// console.log(getPower(arr))
+
+//2
+
+// const arr=["one","hello","Italian","two","mother","Baku","Azerbaijan"]
+
+// function getLength(array){
+//     return array.filter((item)=>item.length>=5)
+// }
+// console.log(getLength(arr))
+
+//3
+
+// const arr=[24,27,35,44,57,69,85,92,123]
+
+// function getSum(array){
+//     return array.reduce((a,b)=>a+b)
+// }
+// console.log(getSum(arr))
