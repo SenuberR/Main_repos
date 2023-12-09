@@ -24,8 +24,27 @@
 
 // console.log(loop(10))
 
-let click=document.querySelector(".btn")
+// let click=document.querySelector(".btn")
 
-click.addEventListener('click', function(){
-    console.log(prompt ("hello"))
+// click.addEventListener('click', function(){
+//     console.log(prompt ("hello"))
+// })
+
+
+const all_data=document.querySelector(".all_data")
+const one_data=document.querySelector(".one_data")
+
+
+all_data.addEventListener('click',function(){
+
+    fetch('https://jsonplaceholder.typicode.com/todos')
+    .then(res=>res.json())
+    .then(json=>console.log(json))
+})
+
+one_data.addEventListener('click',function(){
+
+    fetch('https://jsonplaceholder.typicode.com/todos/5')
+    .then(res=>res.json())
+    .then(json=>console.log(json))
 })

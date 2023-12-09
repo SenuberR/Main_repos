@@ -7,7 +7,7 @@ const clicked=document.querySelector(".clicked")
 
 all_faq_item.forEach(function(faq_item_answer){
     faq_item_answer.addEventListener('click',function(){
-        this.classList.toggle("clicked")
+      this.classList.toggle("clicked")
     })
 })
 
