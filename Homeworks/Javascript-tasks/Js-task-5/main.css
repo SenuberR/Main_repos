@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.open_modal {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid rgb(57, 56, 56);
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.box {
+  display: none;
+}
+
+.modal {
+  display: block;
+  position: absolute;
+  left: 300px;
+  top: 150px;
+  width: 800px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 20px;
+}
+.modal_with_icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.modal_with_icon_title {
+  color: rgb(68, 68, 68);
+}
+.modal_with_icon_item {
+  color: rgb(68, 68, 68);
+  font-size: 24px;
+}
+.modal_descp {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(85, 84, 84);
+  margin-bottom: 8px;
+}
+.modal_input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+.modal_btns {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 12px;
+  margin-top: 16px;
+}
+.modal_btns_left {
+  padding: 8px 24px;
+  font-size: 16px;
+  border: 1px solid rgb(57, 56, 56);
+  border-radius: 4px;
+  background-color: transparent;
+}
+.modal_btns_right {
+  padding: 8px 24px;
+  font-size: 16px;
+  border: 1px solid rgb(57, 56, 56);
+  border-radius: 4px;
+  background-color: rgb(57, 56, 56);
+  color: white;
+}/*# sourceMappingURL=main.css.map */
