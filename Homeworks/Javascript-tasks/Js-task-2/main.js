@@ -90,17 +90,34 @@
 // console.log(displayPersonInfo(person))
 
 
-//2---???
+// 2---???
 
 // const person={
 //     name:"Jane",
 //     surname:"Carlos",
 //     city:"New-York",
 //     age:32,
+
+//   haveBirthday:(item)=>{
+//         return item+=1
+//     }
 // }
+// console.log(haveBirthday(person.age))
+
+
 
 //3---???
 
+// const car={
+//     make: "Toyota",
+//     model:"Camry",
+//     year: 2010,
+
+//     displayCarInfo: (obj)=>{
+//         return `${obj.make}---${obj.model}---${obj.year}`
+//     }
+// }
+// console.log(displayCarInfo(car))
 
 
 //Task 4: Advanced Array Methods

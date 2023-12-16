@@ -31,20 +31,29 @@
 // })
 
 
-const all_data=document.querySelector(".all_data")
-const one_data=document.querySelector(".one_data")
+// const all_data=document.querySelector(".all_data")
+// const one_data=document.querySelector(".one_data")
 
 
-all_data.addEventListener('click',function(){
+// all_data.addEventListener('click',function(){
 
-    fetch('https://jsonplaceholder.typicode.com/todos')
-    .then(res=>res.json())
-    .then(json=>console.log(json))
-})
+//     fetch('https://jsonplaceholder.typicode.com/todos')
+//     .then(res=>res.json())
+//     .then(json=>console.log(json))
+// })
 
-one_data.addEventListener('click',function(){
+// one_data.addEventListener('click',function(){
 
-    fetch('https://jsonplaceholder.typicode.com/todos/5')
-    .then(res=>res.json())
-    .then(json=>console.log(json))
-})
+//     fetch('https://jsonplaceholder.typicode.com/todos/5')
+//     .then(res=>res.json())
+//     .then(json=>console.log(json))
+// })
+
+
+let obj={a:1,b:2,c:3}
+
+function myFunction(a,b){
+    let arr=Object.keys(a)
+return arr.includes(b)
+}
+console.log(myFunction(obj,'b'))
