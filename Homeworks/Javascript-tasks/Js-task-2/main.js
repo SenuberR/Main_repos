@@ -102,22 +102,22 @@
 //         return item+=1
 //     }
 // }
-// console.log(haveBirthday(person.age))
+// console.log(person.haveBirthday)
 
 
 
 //3---???
 
-// const car={
-//     make: "Toyota",
-//     model:"Camry",
-//     year: 2010,
+const car={
+    make: "Toyota",
+    model:"Camry",
+    year: 2010,
 
-//     displayCarInfo: (obj)=>{
-//         return `${obj.make}---${obj.model}---${obj.year}`
-//     }
-// }
-// console.log(displayCarInfo(car))
+    displayCarInfo: ()=>{
+        return `${obj.make}---${obj.model}---${obj.year}`
+    }
+}
+console.log(car.displayCarInfo)
 
 
 //Task 4: Advanced Array Methods
