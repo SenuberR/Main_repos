@@ -20,7 +20,7 @@ right_icon.addEventListener("click", () => {
     counter = images.length + 1;
   } 
   else if (counter <= images.length) {
-    counter = 0;
+    counter = images.length;
   }
 });
 
@@ -30,7 +30,7 @@ left_icon.addEventListener("click", () => {
   if (counter < 0) {
     counter = images.length - 1;
   } 
-  else if (counter >= images.length) {
-    counter = 0;
+  else if(counter >= images.length) {
+    counter = images.length;
   }
 });
