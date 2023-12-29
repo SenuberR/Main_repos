@@ -1,18 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./CSS/add-to-cart.css">
-</head>
-<body>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/add-to-cart.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header_title">Product List</h1>
+        <div class="header_icon_box">
+          <i class="header_icon fa-solid fa-basket-shopping"></i>
+          <span>0</span>
+        </div>
+      </header>
+      <main>
+        <div class="cards">
+          <div class="cards_item">
+            <div class="cards_item_img">
+              <img src="../Js-final/images/img1.jpg" alt="" />
+            </div>
+            <div class="cards_item_content">
+              <h3 class="card_item_content_title">Product title</h3>
+              <p class="card_item_content_price">Price:200$</p>
+              <button class="btn">Add to cart</button>
+            </div>
+          </div>
+        </div>
 
+        <div class="tab">
+          <div class="tab_header">
+            <h1 class="tab_header_title">Shopping Cart</h1>
+            <i class="tab_header_close_icon fa-solid fa-xmark"></i>
+          </div>
+          <div class="list">
+            <div class="list_item">
+              <div class="list_item_img">
+                <img src="../Js-final/images/img1.jpg" alt="" />
+              </div>
+              <h4 class="list_item_title">Title</h4>
+              <p class="list_item_price">200$</p>
+              <div class="counter">
+                <span class="counter_span minus">-</span>
+                <span class="count_num">1</span>
+                <span class="counter_span plus">+</span>
+              </div>
+            </div>
+          </div>
+          <button class="tab_check_btn">Go to cart page</button>
+        </div>
+      </main>
+    </div>
 
-
-
-    <script src="https://kit.fontawesome.com/ff95375b87.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ff95375b87.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
