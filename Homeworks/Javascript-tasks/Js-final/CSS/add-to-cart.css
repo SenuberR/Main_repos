@@ -95,6 +95,10 @@ main .cards_item_content .btn {
   font-size: 16px;
   cursor: pointer;
 }
+main .btn:hover {
+  background-color: black;
+  color: white;
+}
 main .tab {
   transition: 0.5s;
   display: grid;

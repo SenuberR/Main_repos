@@ -101,7 +101,10 @@ main{
           
         }
     }
-
+.btn:hover{
+    background-color: black;
+    color: white;
+}
     .tab{
         transition: .5s;
         display: grid;
