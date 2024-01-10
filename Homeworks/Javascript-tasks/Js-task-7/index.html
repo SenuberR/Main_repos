@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="form_box">
+    <form class="form">
+      <div class="form_input_group">
+        <label class="label" for="name">Name:</label>
+        <input class="input" type="text" id="name" placeholder="Your name"/>
+      </div>
+      <div class="form_input_group">
+        <label class="label" for="email">Email:</label>
+        <input class="input" type="text" id="email" placeholder="Enter your email"/>
+      </div>
+      <div class="form_input_group">
+        <label class="label" for="password">Password:</label>
+        <input class="input" type="text" id="password"/>
+        <p class="input_caption">Your password is between 4 and 12 characters</p>
+      </div>
+
+      <button class="btn" type="submit">Submit</button>
+    </form>
+</div>
+
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+          </tr>
+    </table>
+    <button>Add new data</button>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

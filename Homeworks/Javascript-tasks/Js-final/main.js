@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
         cards.innerHTML+=`
         <div class="cards_item">
         <div class="cards_item_img">
-          <img src="${item.image}" alt="" />
+          <img src="../Js-final/images/img1.jpg" alt="" />
         </div>
         <div class="cards_item_content">
           <h3 class="card_item_content_title">${item.title}</h3>
