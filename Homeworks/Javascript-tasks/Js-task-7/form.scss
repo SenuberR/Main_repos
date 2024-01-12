@@ -52,8 +52,6 @@ padding: 20px;
     background-color:rgb(113, 113, 233);
     border: none;
     color: white;
-
-
 }
 }
 }
@@ -61,7 +59,20 @@ padding: 20px;
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+    padding: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
   }
+.new_data_btn{
+    padding: 10px 18px;
+    background-color: transparent;
+    background-color:rgb(113, 113, 233);
+    border: none;
+    color: white;
+    margin-top: 16px;
+    margin-left: 20px;
+
+}
 .active{
     display: block;
 }
