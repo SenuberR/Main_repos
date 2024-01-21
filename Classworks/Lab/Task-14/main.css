@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.clock_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 40px;
+}
+.clock_box .title {
+  color: white;
+  font-size: 32px;
+}
+.clock_box .double_dot {
+  color: white;
+  font-size: 28px;
+}
+.clock_box .hours {
+  color: white;
+  font-size: 28px;
+}
+.clock_box .minute {
+  color: white;
+  font-size: 28px;
+}
+.clock_box .second {
+  color: white;
+  font-size: 28px;
+}/*# sourceMappingURL=main.css.map */
